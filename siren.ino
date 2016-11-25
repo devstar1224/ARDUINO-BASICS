@@ -28,6 +28,7 @@ void loop() { // DETECTING THE BUTTON
 }
 
 void siren_act(){ // Blinking siren
+delay(300); //Time to loooong press the button so, need to delay
   while (1){
     if(siren==1){
         dig_wr(blue, 1);
